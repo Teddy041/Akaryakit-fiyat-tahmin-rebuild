@@ -10,9 +10,7 @@ Seri 1 Ocak 2011 – 15 Ekim 2026. Bu aralığın dışındaki tarihler eğitimd
 
 ## Veri
 
-Eğitim dosyası `FuelPricePrediction/data/fuelPrice.xlsx`. Sütunlar `Date`, `Benzin`, `Dizel`. Tutarlar KDV dahildir: 10 Temmuz 2023 öncesi %18, sonrası %20.
-
-Dizel serisi 30 Aralık 2019’a kadar V/Pro Diesel, sonrasında V/Max Diesel. Benzin, V/Max Kurşunsuz 95.
+Eğitim dosyası `FuelPricePrediction/data/fuelPrice.xlsx`. Sütunlar `Date`, `Benzin`, `Dizel`. Fiyatlara KDV dahil değildir.
 
 Benzin ve dizel ayrı eğitilir. Dosya değişmediyse kayıtlı model açılır. Son %20 gün, sonraki dönemin kronolojik testidir. Ekrandaki tahmin serinin tamamını kullanır.
 
